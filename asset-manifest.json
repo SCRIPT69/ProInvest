@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ProInvest/static/css/main.8fb6d708.css",
+    "main.js": "/ProInvest/static/js/main.110d11d5.js",
+    "static/media/header background.jfif": "/ProInvest/static/media/header background.b454442fa74e00ee0ca8.jfif",
+    "static/media/decor.png": "/ProInvest/static/media/decor.0a96ad7e4c815307796f.png",
+    "static/media/002-twitter.svg": "/ProInvest/static/media/002-twitter.54d58a82d15468bca4dc.svg",
+    "static/media/003-instagram.svg": "/ProInvest/static/media/003-instagram.ee9ec7a245f3540da3c4.svg",
+    "index.html": "/ProInvest/index.html",
+    "static/media/001-facebook.svg": "/ProInvest/static/media/001-facebook.dc45d469d2844122d92f.svg",
+    "static/media/CaretUp.svg": "/ProInvest/static/media/CaretUp.f2397012e423efffc23e.svg",
+    "static/media/CaretDown.svg": "/ProInvest/static/media/CaretDown.025c27f743189d065f48.svg",
+    "main.8fb6d708.css.map": "/ProInvest/static/css/main.8fb6d708.css.map",
+    "main.110d11d5.js.map": "/ProInvest/static/js/main.110d11d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fb6d708.css",
+    "static/js/main.110d11d5.js"
+  ]
+}
