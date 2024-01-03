@@ -1,0 +1,30 @@
+.InputForm__form {
+    position: relative;
+    max-width: 370px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.InputForm__input {
+    max-width: 320px;
+    height: 51px;
+    background-color: rgba(0,0,0,0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333;
+}
+.InputForm__button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #5E4DCD;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+}
+.InputForm__button:hover {
+    background-color: #3d328a;
+    padding-left: 20px;
+}

@@ -1,0 +1,51 @@
+.CustomButton {
+    padding: 24px 80px 22px 80px;
+    background-color: #5E4DCD;
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 150%;
+    transition: all 0.5s ease 0s;
+}
+.CustomButton:hover {
+    background-color: #3d328a;
+}
+.CustomButton:active {
+    background-color: #221c4c;
+}
+@media (max-width: 768px) {
+    .CustomButton {
+        padding: 20px 70px 18px 70px;
+    }
+}
+
+.CustomButton_little {
+    padding: 16px 40px 14px 40px;
+}
+
+.CustomButton_pinky {
+    background: #FFD2DD;
+    color: #5E4DCD;
+}
+.CustomButton_pinky:hover {
+    background: rgb(183, 84, 106);
+    color: #fff;
+}
+.CustomButton_pinky:active {
+    background: rgb(124, 43, 61);
+}
+
+.CustomButton_border {
+    border: 1px solid #5E4DCD;
+    color: #5E4DCD;
+    padding: 24px 51px 20px 51px;
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CustomButton_border:hover {
+    color: #fff;
+}

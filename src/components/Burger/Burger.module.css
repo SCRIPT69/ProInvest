@@ -1,0 +1,43 @@
+/*BURGER*/
+@media (max-width: 682px) {
+    .Burger {
+        z-index: 3;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+    .Burger span,
+    .Burger::before,
+    .Burger::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: #fff;
+    }
+  
+    .Burger::before,
+    .Burger::after {
+        content: "";
+    }
+  
+    .Burger::before {
+        top: 0;
+    }
+    .Burger::after {
+        bottom: 0;
+    }
+    .Burger span {
+        top: 50%;
+        transform: scale(1) translate(0, -50%);
+    }
+
+    .ExitButton {
+        color: #fff;
+        font-size: 50px;
+    }
+}

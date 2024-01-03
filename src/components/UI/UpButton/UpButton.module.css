@@ -1,0 +1,26 @@
+/*for smoothing scroll you need to add "scroll-behavior: smooth;" in App.css html {}*/
+
+.UpButton {
+    position: relative;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 400px;
+    background: #FFD2DD;
+    transition: all 0.3s ease 0s;
+}
+.UpButton::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url('./icons/CaretUp.svg');
+    transition: all 0.3s ease 0s;
+}
+.UpButton:hover {
+    background-color: rgb(216, 99, 175);
+}
+.UpButton:hover::before {
+    transform: translate(0, -10px);
+}

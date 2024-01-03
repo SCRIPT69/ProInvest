@@ -1,0 +1,84 @@
+.NavHeader {
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+}
+
+.NavHeader__list {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 24px;
+}
+.NavHeader__list *:not(:last-child) {
+    margin-right: 16px;
+}
+
+.NavHeader__list * {
+    transition: all 0.3s ease 0s;
+}
+
+.NavHeader__list_element {
+    transition: all 0.05s ease 0s;
+}
+.NavHeader__list_element:hover {
+    color: #b3b3b3;
+}
+
+.NavHeader__btns *:not(:last-child) {
+    margin-right: 16px;
+}
+@media (max-width: 1007px) {
+    .NavHeader__btns > * {
+        margin-right: 0;
+        min-width: 160px;
+    }
+    .NavHeader__btns > *:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+
+/*For Burger Menu*/
+@media (max-width: 682px) {
+    .NavHeader__list {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        background: rgba(0,0,0,0.7);
+
+        display: none;
+    }
+    .NavHeader__list * {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+/*Special settings*/
+@media (max-width: 682px) {
+    .NavHeader {
+        flex-wrap: wrap;
+    }
+    .NavHeader__list *:not(:last-child) {
+        margin: 0 0 30px 0;
+      }
+    .NavHeader__btns {
+        flex: 1 1 100%;
+        margin-top: 10px;
+    }
+}
+
+.ExitButton {
+    color: #fff;
+    font-size: 80px;
+    margin-top: -200px;
+}

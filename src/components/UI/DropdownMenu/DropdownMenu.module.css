@@ -1,0 +1,77 @@
+.DropdownMenu {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 0.3s;
+}
+.DropdownMenu.active {
+    background-color: rgba(0,0,0,0.4);
+    color: #b3b3b3;
+    transition: 0s;
+}
+.DropdownMenu__title {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.DropdownMenu__title:hover {
+    color: #b3b3b3;
+}
+.DropdownMenu__title::after {
+    content:'';
+    background-image: url('./img/CaretDown.svg');
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+}
+
+.DropdownMenu__values {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    z-index: 3;
+    top: 100%;
+    width: 100%;
+    padding: 0 5px;
+    font-size: 19px;
+    color: #fff;
+}
+
+
+.DropdownMenu__item {
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+.DropdownMenu__item:first-child {
+    padding-top: 10px;
+}
+.DropdownMenu__item:hover {
+    color: #fffa9d;
+}
+.DropdownMenu__item:active {
+    color: #fff204;
+}
+.DropdownMenu__values_inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+
+@media (max-width: 682px) {
+    .DropdownMenu__values {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: right;
+        background-color: rgba(0,0,0,0);
+    }
+    .DropdownMenu__item {
+        padding: 0 0;
+    }
+    .DropdownMenu__item:first-child {
+        padding: 0 0;
+    }
+}

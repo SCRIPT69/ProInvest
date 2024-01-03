@@ -1,0 +1,93 @@
+.LoginForm {
+    padding: 40px 160px 0px 160px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 850px) {
+    .LoginForm {
+        padding: 20px 100px 0 100px;
+    }
+}
+@media (max-width: 580px) {
+    .LoginForm {
+        padding: 10px 50px 0 50px;
+    }
+}
+@media (max-width: 470px) {
+    .LoginForm {
+        padding: 2px 20px 0 20px;
+    }
+}
+
+.LoginForm__title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+@media (max-width: 470px) {
+    .LoginForm__title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+.LoginForm__minititle {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #474747;
+}
+
+.LoginForm__input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 5px;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+.LoginForm__input:hover {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.LoginForm__input:focus {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.LoginForm__text {
+    margin-top: 20px;
+}
+.LoginForm__link {
+    color: #2285e9;
+    cursor: pointer;
+}
+.LoginForm__link:hover {
+    color: #1160af;
+}
+
+.LoginForm__button {
+    margin-top: 27px;
+    padding: 13px 45px;
+    background-color: #5E4DCD;
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 150%;
+    transition: all 0.5s ease 0s;
+}
+.LoginForm__button:hover {
+    background-color: #3d328a;
+}
+.LoginForm__button:active {
+    background-color: #221c4c;
+}
+
+.LoginForm__buttonDisabled {
+    pointer-events: none;
+    opacity: 0.5;
+}

@@ -1,0 +1,93 @@
+.RegisterForm {
+    padding: 40px 160px 0px 160px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 850px) {
+    .RegisterForm {
+        padding: 20px 100px 0 100px;
+    }
+}
+@media (max-width: 580px) {
+    .RegisterForm {
+        padding: 10px 50px 0 50px;
+    }
+}
+@media (max-width: 470px) {
+    .RegisterForm {
+        padding: 2px 20px 0 20px;
+    }
+}
+
+.RegisterForm__title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+@media (max-width: 470px) {
+    .RegisterForm__title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+.RegisterForm__minititle {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #474747;
+}
+
+.RegisterForm__input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 5px;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+.RegisterForm__input:hover {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.RegisterForm__input:focus {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.RegisterForm__text {
+    margin-top: 20px;
+}
+.RegisterForm__link {
+    color: #2285e9;
+    cursor: pointer;
+}
+.RegisterForm__link:hover {
+    color: #1160af;
+}
+
+.RegisterForm__button {
+    margin-top: 27px;
+    padding: 13px 45px;
+    background-color: #5E4DCD;
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 150%;
+    transition: all 0.5s ease 0s;
+}
+.RegisterForm__button:hover {
+    background-color: #3d328a;
+}
+.RegisterForm__button:active {
+    background-color: #221c4c;
+}
+
+.RegisterForm__buttonDisabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
